@@ -5,8 +5,9 @@ public class PerspectiveMotion : MonoBehaviour
 {
     public Transform start;
     public Transform end;
-    private float t;
+    private float timer;
     public float speed;
+    public float wait;
     public AnimationCurve curveMotion;
     public AnimationCurve curveSize;
     public float size;
@@ -15,20 +16,20 @@ public class PerspectiveMotion : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        
+        timer = 0f;
     }
 
     // Update is called once per frame
     void Update()
     {
-        t += Time.deltaTime * speed;
+        timer += Time.deltaTime * speed;
 
-        if (t > 1)
+        if (timer > wait)
         {
-            t = 0;
-        }
+            timer = timer - wait;
+        } 
 
-        transform.position = Vector2.Lerp(start.position, end.position, curveMotion.Evaluate(t));
-        transform.localScale = (Vector3.one * size) * curveSize.Evaluate(t);
+        transform.position = Vector2.Lerp(start.position, end.position, curveMotion.Evaluate(timer));
+        transform.localScale = (Vector3.one * size) * curveSize.Evaluate(timer);
     }
 }
