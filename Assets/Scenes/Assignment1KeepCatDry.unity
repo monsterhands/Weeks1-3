@@ -215,6 +215,7 @@ MonoBehaviour:
   maxSpeed: 2
   start: {fileID: 694034259}
   end: {fileID: 1875432824}
+  obstacle: {fileID: 645883295}
 --- !u!212 &17619342
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -350,6 +351,7 @@ MonoBehaviour:
   maxSpeed: 2.5
   start: {fileID: 1283997057}
   end: {fileID: 1832960668}
+  obstacle: {fileID: 645883295}
 --- !u!212 &29843316
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -920,6 +922,7 @@ MonoBehaviour:
   maxSpeed: 1
   start: {fileID: 1581770812}
   end: {fileID: 2088867255}
+  obstacle: {fileID: 645883295}
 --- !u!212 &265997185
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1442,6 +1445,7 @@ MonoBehaviour:
   maxSpeed: 3
   start: {fileID: 86239987}
   end: {fileID: 1987195825}
+  obstacle: {fileID: 645883295}
 --- !u!212 &496110424
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1582,6 +1586,7 @@ MonoBehaviour:
   maxSpeed: 2
   start: {fileID: 1510672551}
   end: {fileID: 355040307}
+  obstacle: {fileID: 645883295}
 --- !u!212 &531844122
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1717,6 +1722,7 @@ MonoBehaviour:
   maxSpeed: 2.5
   start: {fileID: 567210688}
   end: {fileID: 1453781352}
+  obstacle: {fileID: 645883295}
 --- !u!212 &547436783
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1890,7 +1896,6 @@ GameObject:
   m_Component:
   - component: {fileID: 645883295}
   - component: {fileID: 645883294}
-  - component: {fileID: 645883293}
   - component: {fileID: 645883296}
   m_Layer: 0
   m_Name: umbrella
@@ -1899,18 +1904,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &645883293
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 645883292}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5bc6fc36fe656ac43b5fc5f904fec7c4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!212 &645883294
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2028,6 +2021,7 @@ MonoBehaviour:
   maxSpeed: 1
   start: {fileID: 381210696}
   end: {fileID: 1647131644}
+  obstacle: {fileID: 645883295}
 --- !u!212 &658120830
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2132,6 +2126,7 @@ MonoBehaviour:
   maxSpeed: 3.5
   start: {fileID: 14012901}
   end: {fileID: 2071405525}
+  obstacle: {fileID: 645883295}
 --- !u!212 &678948745
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2300,6 +2295,7 @@ MonoBehaviour:
   maxSpeed: 2
   start: {fileID: 577167242}
   end: {fileID: 1719676224}
+  obstacle: {fileID: 645883295}
 --- !u!212 &714989425
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2435,6 +2431,7 @@ MonoBehaviour:
   maxSpeed: 3
   start: {fileID: 195875047}
   end: {fileID: 1132397645}
+  obstacle: {fileID: 645883295}
 --- !u!212 &866278577
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2539,6 +2536,7 @@ MonoBehaviour:
   maxSpeed: 1
   start: {fileID: 1395571684}
   end: {fileID: 389994961}
+  obstacle: {fileID: 645883295}
 --- !u!212 &886910555
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2643,6 +2641,7 @@ MonoBehaviour:
   maxSpeed: 3
   start: {fileID: 190427961}
   end: {fileID: 129341632}
+  obstacle: {fileID: 645883295}
 --- !u!212 &915799652
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2747,6 +2746,7 @@ MonoBehaviour:
   maxSpeed: 3
   start: {fileID: 263870558}
   end: {fileID: 336398770}
+  obstacle: {fileID: 645883295}
 --- !u!212 &926806620
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3111,6 +3111,7 @@ MonoBehaviour:
   maxSpeed: 2
   start: {fileID: 1485191440}
   end: {fileID: 181330906}
+  obstacle: {fileID: 645883295}
 --- !u!212 &1164287620
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3246,6 +3247,7 @@ MonoBehaviour:
   maxSpeed: 1.5
   start: {fileID: 16357267}
   end: {fileID: 1378195529}
+  obstacle: {fileID: 645883295}
 --- !u!212 &1230491503
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3713,6 +3715,7 @@ MonoBehaviour:
   maxSpeed: 2
   start: {fileID: 1182741703}
   end: {fileID: 2046722772}
+  obstacle: {fileID: 645883295}
 --- !u!212 &1353207501
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3817,6 +3820,7 @@ MonoBehaviour:
   maxSpeed: 3
   start: {fileID: 1521584517}
   end: {fileID: 481564670}
+  obstacle: {fileID: 645883295}
 --- !u!212 &1356964268
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4168,6 +4172,7 @@ MonoBehaviour:
   maxSpeed: 2
   start: {fileID: 1493033990}
   end: {fileID: 1117928312}
+  obstacle: {fileID: 645883295}
 --- !u!212 &1438114954
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4845,6 +4850,7 @@ MonoBehaviour:
   maxSpeed: 2
   start: {fileID: 937487550}
   end: {fileID: 28078549}
+  obstacle: {fileID: 645883295}
 --- !u!212 &1721943434
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5011,6 +5017,7 @@ MonoBehaviour:
   maxSpeed: 2
   start: {fileID: 764343498}
   end: {fileID: 1722035683}
+  obstacle: {fileID: 645883295}
 --- !u!212 &1801960115
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5146,6 +5153,7 @@ MonoBehaviour:
   maxSpeed: 2
   start: {fileID: 1782486105}
   end: {fileID: 2003407323}
+  obstacle: {fileID: 645883295}
 --- !u!212 &1867336446
 SpriteRenderer:
   m_ObjectHideFlags: 0
